@@ -34,5 +34,5 @@ RUN npm install cors -g
 RUN npm i -g pm2
 
 # Starting Server
-CMD ["sh", "-c", "service nginx start ; pm2-runtime index.js -i 0"]
+CMD ["node", "index.js"]
 
