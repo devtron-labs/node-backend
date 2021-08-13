@@ -7,7 +7,7 @@ var employeeController = require('./controllers/employeeController.js');
 
 var app = express();
 app.use(bodyParser.json());
-app.use(cors({ origin: 'http://fossunited.demo.devtron.xyz:32471' }));
+app.use(cors({ origin: 'http://angular.devtron.xyz:32471' }));
 
 app.use(function (req, res, next) {
 res.setHeader('Access-Control-Allow-Origin', '*');
