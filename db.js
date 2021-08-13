@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost:27017/CrudDB', (err) => {
+mongoose.connect('mongodb://root:t5Jn5h05nH@mongo-devtron-demo-mongodb.devtron-demo:27017/admin', {useNewUrlParser: true}, (err) => {
     if (!err)
         console.log('MongoDB connection succeeded.');
     else
