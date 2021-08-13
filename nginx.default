@@ -3,7 +3,7 @@
 server {
     listen       80;
     listen       [::]:80;
-    server_name  example.org;
+    server_name  *.devtron.xyz;
     root         /app;
 
     location / {
